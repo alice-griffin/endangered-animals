@@ -27,7 +27,7 @@ const endangeredAnimals = [
         habitat: ["Lowland rainforests", "Tropical, swamp, and mountain forests"],
         location: "Borneo, Sumatra",
         description: "Bornean orangutan populations have declined by more than 50% over the past 60 years, and the species' habitat has been reduced by at least 55% over the past 20 years. The Bornean orangutan differs in appearance from the Sumatran orangutan, with a broader face and shorter beard and also slightly darker in color. Three subspecies are recognized, each localized to different parts of the island: Northwest Bornean orangutans are the most threatened subspecies. Its habitat has been seriously affected by logging and hunting, and a mere 1,500 individuals or so remain. Many habitat patches in the area are small and fragmented. Northeast Bornean orangutans are the smallest in size and found in Sabah and eastern Kalimantan as far as the Mahakam River. Central Bornean orangutans are the subspecies with the most animals, with at least 35,000 individuals.",
-        image_url: "https://c402277.ssl.cf1.rackcdn.com/photos/18410/images/hero_full/Medium_WW267197.jpg?1578345502"
+        image_url: "https://c402277.ssl.cf1.rackcdn.com/photos/1145/images/hero_full/Bornean_Orangutan_8.1.2012_hero_and_circle_XL_279107.jpg?1345587030"
     },
     {
         id: 4,
