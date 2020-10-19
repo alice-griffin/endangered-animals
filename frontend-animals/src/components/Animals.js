@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './Animals.css';
 
 
 export default function Animals() {
@@ -18,11 +19,14 @@ export default function Animals() {
         <div>
             {animals.map(animal => {
                 return (
-                    <div>
-                        <img src={animal.image_url}></img>
+                    <div key={animal.id}>
+                        <div class="content-wrapper">
+                            <img alt="animal" src={animal.image_url}></img>
+                            <div class="text-wrapper"><h4>{animal.name}</h4></div>
+                        </div>
                     </div>
                 )
             })}
         </div>
     )
-            }
+}

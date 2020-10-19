@@ -1,0 +1,15 @@
+img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+h4 {
+    color: white; 
+    text-align: center;
+}
+
+.text-wrapper {
+    position: relative;
+    margin-top: -70px;
+}

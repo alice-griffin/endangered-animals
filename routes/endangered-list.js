@@ -67,7 +67,7 @@ const endangeredAnimals = [
         habitat: ["Tropical forests"],
         location: "Ujung Kulon National Park, Java, Indonesia",
         description: "Javan rhinos are the most threatened of the five rhino species, with only around 60 individuals that live only in Ujung Kulon National Park in Java, Indonesia. Javan rhinos once lived throughout northeast India and Southeast Asia. Vietnam’s last Javan rhino was poached in 2010. This species is a dusky grey color and has a single horn of up to about 10 inches. Its skin has a number of loose folds, giving the appearance of armor plating. The Javan rhino is very similar in appearance to the closely-related greater one-horned rhinoceros, but has a much smaller head and less apparent skin folds.",
-        image_url: ""
+        image_url: "https://c402277.ssl.cf1.rackcdn.com/photos/9496/images/hero_full/_H9A0249.jpg?1436885827"
     },
     {
         id: 8,
