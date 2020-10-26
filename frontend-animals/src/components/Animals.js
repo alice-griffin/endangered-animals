@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Animals.css';
+import { Link } from 'react-router-dom';
+
 
 
 export default function Animals() {
@@ -20,9 +22,9 @@ export default function Animals() {
             {animals.map(animal => {
                 return (
                     <div key={animal.id}>
-                        <div class="content-wrapper">
+                        <div className="content-wrapper">
                             <img alt="animal" src={animal.image_url}></img>
-                            <div class="text-wrapper"><h4>{animal.name}</h4></div>
+                            <Link to={{pathname: "/details", state: {animals}}}><div className="text-wrapper"><h4>{animal.name}</h4></div></Link>
                         </div>
                     </div>
                 )

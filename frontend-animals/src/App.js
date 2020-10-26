@@ -1,35 +1,23 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css"
 import About from './components/About';
 import Home from './components/Home';
+import Help from './components/Help';
+import Details from './components/Details';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-        </div>
-     
-
-      <Switch>
-        <Route exact path="/">
-          <Home/>
-        </Route>
-        <Route exact path="/about">
-          <About/>
-        </Route>
-      </Switch>
-      </Router>
-    </div>
+  <Router>
+<div className="App">
+  <Switch>
+    <Route exact={true} path="/" component={Home}></Route>
+    <Route exact={true} path="/about" component={About}></Route>
+    <Route exact={true} path="/help" component={Help}></Route>
+    <Route exact={true} path="/details" component={Details}></Route>
+    </Switch>
+</div>
+</Router>
   );
 }
 
